@@ -25,6 +25,7 @@ Makine öğrenmesinin karmaşıklığını dll dosyalarının içinde ne olduğu
 Test aşamasının karmaşıklığı ise foreach döngüsü tespit edilen her yüz için 1 kez dönecektir. Bu yüzden worst case de karmaşıklık O(n) dir.
 
 My profile links
+
 https://steemit.com/@primus1
 
 https://utopian.io/@primus1
