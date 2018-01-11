@@ -23,3 +23,11 @@ Bu methoda gelen greyscale görüntü diziye koyularak haar dosyasında karşıl
 Makine öğrenmesinin karmaşıklığını dll dosyalarının içinde ne olduğunu göremediğimiz için dizi boyutu kadar diye biliriz buda worst case de O(n) dir.
 
 Test aşamasının karmaşıklığı ise foreach döngüsü tespit edilen her yüz için 1 kez dönecektir. Bu yüzden worst case de karmaşıklık O(n) dir.
+
+My profile links
+https://steemit.com/@primus1
+https://utopian.io/@primus1
+
+Contribution link
+https://utopian.io/utopian-io/@primus1/c-face-recognition-app-with-emgu-cv-library
+https://steemit.com/utopian-io/@primus1/c-face-recognition-app-with-emgu-cv-library
