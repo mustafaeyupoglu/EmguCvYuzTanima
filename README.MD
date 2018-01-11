@@ -26,6 +26,7 @@ Test aşamasının karmaşıklığı ise foreach döngüsü tespit edilen her y�
 
 My profile links
 https://steemit.com/@primus1
+
 https://utopian.io/@primus1
 
 Contribution link
