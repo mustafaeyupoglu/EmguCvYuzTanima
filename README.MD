@@ -28,6 +28,7 @@ Test aşamasının karmaşıklığı ise foreach döngüsü tespit edilen her y�
  **Emgu Cv - Face recognition app**
  
  This app is recognizing faces in your webcam.
+ You can install emgu cv library in nuget packages.
 
  **İnput Format - Machine Learning**
  When the application is started, it captures the image on the camera. And this image made by frames.
