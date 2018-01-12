@@ -24,6 +24,39 @@ Makine öğrenmesinin karmaşıklığını dll dosyalarının içinde ne olduğu
 
 Test aşamasının karmaşıklığı ise foreach döngüsü tespit edilen her yüz için 1 kez dönecektir. Bu yüzden worst case de karmaşıklık O(n) dir.
 
+ **Emgu Cv - Face recognition app**
+ 
+ This app is recognizing faces in your webcam.
+
+ **İnput Format - Machine Learning**
+ When the application is started, it captures the image on the camera. And this image made by frames.
+
+Image<Bgr, byte> binaryGoruntu = webcam.QueryFrame().ToImage<Bgr, Byte>()
+in this row we are converting frames to Image<Bgr, byte> Array.
+
+After that for the process this converted image , we need to convert image to grayscale.
+
+ Image<Gray, byte> greyScaleGoruntu = binaryGoruntu.Convert<Gray, byte>();
+This type of facial recognition, object detection apps generally use XML based HAAR CASCADEfiles.
+These files are containing training data for machine learning. You can find these files in the Internet.
+
+The images are searching in the Haar file and the found faces are return. And the binary image we captured at the beginning is overwritten.
+
+Rectangle[] rectangles = haar.DetectMultiScale(greyScaleGoruntu, 1.4, 1, new Size(100, 100), new Size(800, 800));
+                    foreach (var face in rectangles)
+                    {
+                        binaryGoruntu.Draw(face, new Bgr(0, double.MaxValue, 0), 3);
+                    }
+                    pictureBox1.Image = binaryGoruntu.ToBitmap();
+                    
+**Complexity Analysis**
+When you examine the Emgu Cv library, detectMultiScale method is the method of machine learning.
+
+In the worst case Complexity is O(n).
+
+The complexity of the test phase is O(n) because foreach loop will return once.
+
+
 My profile links
 
 https://steemit.com/@primus1
