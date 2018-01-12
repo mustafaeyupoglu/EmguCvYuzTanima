@@ -5,6 +5,7 @@
 Uygulama anlık olarak kameradaki yüzleri tespit ediyor.
 
 **İnput Formatı - Makine Öğrenmesi **
+
 Uygulama başlatıldığında kameradaki görüntüyü alır. Bu görüntü framlerden oluşuyor bunu Image<Bgr, byte> tipine dönüştürür. böylece frameleri byte dizisi şekline getirilir.
 
 Daha sonra dönüştürülen bu görüntü işlenebilmek için grayscale'e dönüştürülür. 
